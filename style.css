@@ -71,7 +71,7 @@ input:hover{
 }
 @media(max-width:858px){
     form{
-        width: 400px;
+        width: 350px;
         height: 520px;
         box-shadow: 0 0 10px 1px grey;
         margin-top: 100px;
@@ -82,6 +82,7 @@ input:hover{
         text-align: center;
         justify-content: center;
         display: flex;
+        margin-left: 3px;
         
       
     }
