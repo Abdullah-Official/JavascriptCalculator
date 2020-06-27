@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+<div class="centercalcy">
+<form name="calcy">
+<input type="text" name="" value ="Calculator"id="app_name">
+<input type="text"  name="answers" id="display_answer">
+
+<div class="layer2">
+<input type="button" class="operator" value="c" id="clearbutton" onclick="calcy.answers.value=''">
+<input type="button" class="operator" name="" id="" value="=" onclick="calcy.answers.value=eval(calcy.answers.value)">
+</div>
+
+<div class="layer1">
+<input type="button" name="" class="main_num" value="7" onclick="calcy.answers.value += '7'" id="">
+<input type="button" name="" class="main_num" value="8" onclick="calcy.answers.value += '8'" id="">
+<input type="button" name="" class="main_num" value="9" onclick="calcy.answers.value += '9'" id="">
+<input type="button" name="" class="operator" value="*" onclick="calcy.answers.value += '*'" id="">
+</div>
+
+<div class="layer1">
+    <input type="button" name="" class="main_num" value="4" onclick="calcy.answers.value += '4'" id="">
+    <input type="button" name="" class="main_num" value="5" onclick="calcy.answers.value += '5'" id="">
+    <input type="button" name="" class="main_num" value="6" onclick="calcy.answers.value += '6'" id="">
+    <input type="button" name="" class="operator" value="-" onclick="calcy.answers.value += '-'" id="">
+    </div>
+
+    <div class="layer1">
+        <input type="button" name="" class="main_num" value="1" onclick="calcy.answers.value += '1'" id="">
+        <input type="button" name="" class="main_num" value="2" onclick="calcy.answers.value += '2'" id="">
+        <input type="button" name="" class="main_num" value="3" onclick="calcy.answers.value += '3'" id="">
+        <input type="button" name="" class="operator" value="+" onclick="calcy.answers.value += '+'" id="">
+        </div>
+
+        <div class="layer1">
+            <input type="button" name="" class="operator" value="." onclick="calcy.answers.value += '.'" id="">
+            <input type="button" name="" class="main_num" value="0" onclick="calcy.answers.value += '0'" id="">
+            <input type="button" name="" class="operator" value="%" onclick="calcy.answers.value += '%'" id="">
+            <input type="button" name="" class="operator" value="/" onclick="calcy.answers.value += '/'" id="">
+            </div>
+</form>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
